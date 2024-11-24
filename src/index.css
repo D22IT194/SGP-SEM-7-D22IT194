@@ -1,0 +1,582 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./assets/fonts.woff2') format('truetype');
+}
+
+.My-Listing-Title {
+  font-Weight: bold; 
+  font-size: 2.0rem;
+}
+.My-Listing-info {
+  display: flex;
+  justify-content: space-between;
+
+}
+.My-Listing-R {
+  flex: 1; 
+  text-align: right; 
+  margin-Left: 40px;
+}
+.My-Listing-btn {
+  padding-top: 20px; 
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.Filters-2 {
+  width: 140px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+.Filters-2::placeholder {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.Buyer_login,
+.Seller_login {
+  margin-bottom: 2.5rem;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.continue-p {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.Login-page {
+  width: 25%;
+
+
+}
+
+.about-us-container {
+  padding: 2rem;
+  line-height: 1.8;
+  display: flex;
+
+}
+
+.about-content {
+  margin: 6% 6% 0 6%;
+  display: flex;
+  gap: 5%;
+}
+
+.About-disc {
+  width: 65%;
+  /* margin-top: 6%; */
+}
+
+.about-us-container h1,
+.about-us-container h2 {
+  color: #e74c3c;
+  line-height: 1.6;
+}
+
+.About-disc h1 {
+  font-size: 35px
+}
+
+.About-disc h2 {
+  font-size: 25px
+}
+
+.about-us-container p {
+  margin-bottom: 1rem;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.family-illustration {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.family-illustration img {
+  max-width: 100%;
+  height: auto;
+  /* margin-top: 6%; */
+}
+
+.contact-form-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 94vh;
+  font-size: 15px;
+}
+
+.contact-header {
+  margin-top: 18%;
+}
+
+.contact-header h2 {
+  text-align: center;
+  background-color: #e74c3c;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-image: url('path-to-your-background-image');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-header h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  width: 48%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background-color: #c0392b;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.contact-info a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.buyer-header_components {
+  display: flex;
+  gap: 8%;
+  width: 100%;
+}
+
+.Buyer-Profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin-right: 1vw;
+
+}
+
+.Welcome-name {
+  font-weight: bolder;
+  color: rgb(76, 71, 231);
+}
+
+.Welcome-name:hover {
+  color: #e74c3c;
+
+}
+
+.logout-btn:hover {
+  color: #e74c3c;
+
+}
+
+.seller-header_components {
+  display: flex;
+  gap: 8%;
+  width: 100%;
+
+}
+
+.property-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-list-R {
+  flex: 1;
+  margin-left: 30%;
+}
+
+.Prop_desc {
+  display: flex;
+  justify-Content: space-between;
+  margin-top: 16px;
+}
+
+.Prop_desc-R {
+  flex: 1;
+  margin-left: 8px;
+}
+
+.Prop-detail-desc {
+  text-align: justify;
+  font-Size: 1.5rem;
+  font-Weight: bold;
+  margin-top: 0;
+  color: #333;
+
+}
+
+.Edit-Property {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+/* General form styling */
+.property-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-form h2 {
+  margin-top: 10%;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Labels */
+.property-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+/* Inputs, Selects, and Textareas */
+.property-form input,
+.property-form select,
+.property-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.property-form input:focus,
+.property-form select:focus,
+.property-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.property-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Form grid styling */
+.property-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.property-form .form-group {
+  width: calc(50% - 10px);
+}
+
+.property-form .form-group.full-width {
+  width: 100%;
+}
+
+/* Button */
+.property-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.property-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.post-property {
+  /* margin-top: 30%; */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .property-form .form-group {
+    width: 100%;
+  }
+
+  .property-form input,
+  .property-form select,
+  .property-form textarea {
+    width: 100%;
+  }
+}
+
+.openbtn {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+.container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.item_img {
+  height: 100vh;
+
+}
+
+.item_img img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.header-bar {
+  display: flex;
+  border-bottom: solid black 1px;
+  position: fixed;
+  z-index: +1;
+  background-color: #fff;
+  width: 100%;
+
+
+}
+
+.real-logo {
+  height: 10vh;
+  margin-left: 3vh;
+
+}
+
+.pages {
+  width: 100%;
+  font-size: 15px;
+}
+
+.pages ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10vh;
+  margin-left: 60vh;
+  margin-top: 4vh;
+
+
+
+}
+
+.pages a {
+  text-decoration: none;
+  color: #151C22;
+  font-size: 17px;
+}
+
+.pages a:hover {
+  color: #e81c28;
+  text-decoration: none;
+
+}
+
+.carousel-inner {
+  margin-top: 10vh;
+}
+
+.second-page {
+  margin: 10vh;
+}
+
+.home-desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-detail {
+  width: 50%;
+}
+
+p.title {
+  font-size: 36px;
+  width: 90%;
+}
+
+p.subtitle {
+  font-size: 15px;
+  width: 80%;
+  margin-bottom: 4vh;
+}
+
+.img-1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.property-btn {
+  border-color: #e81c28;
+  background-color: #e81c28;
+  width: 5vh;
+  color: #fff;
+  padding: 2px 15px;
+  border: 4px solid #e81c28;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.footer-bar {
+  background-color: #151C22;
+  /* bottom: 0; */
+  width: 100%;
+  /* position: absolute;   */
+}
+
+.footer-detail {
+  color: #fff;
+  display: flex;
+  gap: 5vh;
+  font-size: 15px;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.footer-info {
+  display: flex;
+  gap: 5vh;
+}
+
+.home-desc-2 {
+  display: flex;
+  gap: 35vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.img-desc {
+  width: 50%;
+  font-size: 15px;
+}
+
+.img-desc h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.img-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vh;
+}
